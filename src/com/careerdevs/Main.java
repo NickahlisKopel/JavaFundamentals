@@ -1,8 +1,10 @@
 package com.careerdevs;
 
+import com.careerdevs.intro.DataTypes;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        DataTypes.main();
     }
 }
