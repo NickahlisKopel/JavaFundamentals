@@ -86,6 +86,29 @@ public class DataTypes {
         System.out.println(Arrays.deepToString(numbers04));
 
         //Arithmetic Expressions------------------------------------------------------------------
+        int result = 10 + 3;
+        result = 10 - 3;
+        result = 10 * 3;
+        double result02 = (double)10 / (double)3;
+        System.out.println(result02);
+
+        int a = 1;
+        //y == 1 then x is incremented
+        //int y = x++;
+        //incremented before so both is 2
+        int u = ++a;
+        int e = 1;
+        e += 5;
+        e -= 2;
+        e *= 3;
+        e /= 2;
+
+        //Order of Operations ------------------------------------------------------------
+        //PEMDAS
+        int o = 10 + 3 * 2;
+        o = (10 + 3) * 2;
+
+
 
 
 
