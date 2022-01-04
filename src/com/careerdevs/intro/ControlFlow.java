@@ -39,7 +39,24 @@ public class ControlFlow {
         boolean hasHighIncome02 = (income > 100_000);
 
         //For Loops ------------------------------------------------------
+        for (int i = 0; i < 5; i++){
+            System.out.println("Hello World");
+        }
+        for (int i = 5; i > 0; i--){
+            System.out.println("Hello World");
+        }
+        //for (initalizer, condition, end of iteration)
 
+        //For-Each Loop --------------------------------------------------
+        String[] fruits = {"Apple", "Mango", "Orange"};
+
+        //if you need the index you need to use for loop
+        for (int i = 0; i < fruits.length; i++)
+            System.out.println(fruits[i]);
+        //for each
+        // for (array type variable name : name of array)
+        for (String fruit : fruits)
+            System.out.println(fruit);
     }
 
 
