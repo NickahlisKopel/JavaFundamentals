@@ -1,5 +1,6 @@
 package com.careerdevs;
 
+import com.careerdevs.interm.Browser;
 import com.careerdevs.interm.Employee;
 import com.careerdevs.interm.TextBox;
 import com.careerdevs.intro.CleanCoding;
@@ -26,11 +27,14 @@ public class Main {
         textBox2.setText("Box 2");
         System.out.println(textBox2.text);
 //--------------------------------------------------
-        var employee = new Employee();
-        employee.setBaseSalary(50_000);
-        employee.setHourlyRate(20);
-        int wage = employee.calculateWage(10);
+        var employee = new Employee(50_000);
+
+        int wage = employee.calculateWage();
         System.out.println(wage);
+
+        //-------------------------------
+        var browser = new Browser();
+
     }
 
 }
