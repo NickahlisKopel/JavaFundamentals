@@ -1,9 +1,9 @@
-package com.careerdevs.interm;
+package com.careerdevs.interm.Classes;
 
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
-
+    public static int numberOfEmployees;
 
     public Employee(int baseSalary){
         this(baseSalary, 0);
@@ -13,7 +13,11 @@ public class Employee {
     public Employee(int baseSalary, int hourlyRate){
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
+    }
 
+    public static void printNumberOfEmployees(){
+        System.out.println(numberOfEmployees);
     }
 
 

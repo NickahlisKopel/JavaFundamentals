@@ -1,14 +1,8 @@
 package com.careerdevs;
 
-import com.careerdevs.interm.Browser;
-import com.careerdevs.interm.Employee;
-import com.careerdevs.interm.TextBox;
-import com.careerdevs.intro.CleanCoding;
-import com.careerdevs.intro.ControlFlow;
-import com.careerdevs.intro.DataTypes;
-import com.careerdevs.intro.Debugging;
-
-import java.util.Locale;
+import com.careerdevs.interm.Classes.Browser;
+import com.careerdevs.interm.Classes.Employee;
+import com.careerdevs.interm.Classes.TextBox;
 
 public class Main {
 

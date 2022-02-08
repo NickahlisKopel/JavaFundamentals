@@ -1,4 +1,4 @@
-package com.careerdevs.interm;
+package com.careerdevs.interm.Classes;
 
 public class Browser {
     public void navigate (String address){
